@@ -22,3 +22,11 @@ This project addresses the need for smarter, low-maintenance greenhouse manageme
 - Node-RED dashboard
 - MQTT protocol
 - Solar panel
+
+
+## Flow
+- Detects nearby birds(ultrasonic sensor) and warns them (buzzer)
+
+- Automatically waters plants (pump) based on soil moisture (Capacitive Soil Moisture Sensor)
+- Monitors temperature and humidity (D1 mini temp shield)
+- Servo motors to open windows and roll down curtains
