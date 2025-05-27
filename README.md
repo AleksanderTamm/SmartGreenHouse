@@ -25,7 +25,7 @@ This project addresses the need for smarter, low-maintenance greenhouse manageme
 - Servo motor
 - LUX sensor TSL2561
 - 2x Flexible WS2812 NeoPixel 8x8 Matrix (64 LEDs)
-- Node-RED dashboard
+- Node-RED [dashboard](Pictures/nodered.png)
 - MQTT protocol
 
 
