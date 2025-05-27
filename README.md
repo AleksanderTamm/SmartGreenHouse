@@ -25,7 +25,7 @@ This project addresses the need for smarter, low-maintenance greenhouse manageme
 - Water pump + relay module
 - Temperature + humidity sensor DHT Shield
 - Servo motor
-- LUX sensor TSL2561
+- LUX sensor BH1750
 - 2x Flexible WS2812 NeoPixel 8x8 Matrix (64 LEDs)
 - ESP32 CAM
 - Node-RED [dashboard](Pictures/nodered.png), [dashboard with webcam](Pictures/20250527_114648.jpg), [flow](Pictures/nodered_flow.png) and [json](Code/SmartGreenHouse/NodeRed/flows.json)
@@ -37,6 +37,6 @@ This project addresses the need for smarter, low-maintenance greenhouse manageme
 - Automatically waters plants (pump) based on soil moisture (Capacitive Soil Moisture Sensor)
 - Monitors temperature and humidity (DHT Shield)
 - Servo motors to control window based on temperature
-- Control growing lights (LED matrix) based on the intentsity of the sunlight(TSL2561)
+- Control growing lights (LED matrix) based on the intentsity of the sunlight(BH1750)
 - See all data and have control over everything with NodeRed dashboard
 - Can watch plants growing using webcam(ESP32 CAM)
