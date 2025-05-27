@@ -15,6 +15,8 @@ This project addresses the need for smarter, low-maintenance greenhouse manageme
 - Monitors temperature and humidity
 - Opens and closes window based on temperature
 - Based on the intentsity of the sunlight turns on/off growing lights
+- Is streamed via webcam
+- All aspects can be manually controlled via NodeRed dashboard
 
   
 ## Tech Stack
@@ -25,6 +27,7 @@ This project addresses the need for smarter, low-maintenance greenhouse manageme
 - Servo motor
 - LUX sensor TSL2561
 - 2x Flexible WS2812 NeoPixel 8x8 Matrix (64 LEDs)
+- ESP32 CAM
 - Node-RED [dashboard](Pictures/nodered.png), [dashboard with webcam](Pictures/20250527_114648.jpg), [flow](Pictures/nodered_flow.png) and [json](Code/SmartGreenHouse/NodeRed/flows.json)
 - MQTT protocol
 
@@ -35,3 +38,5 @@ This project addresses the need for smarter, low-maintenance greenhouse manageme
 - Monitors temperature and humidity (DHT Shield)
 - Servo motors to control window based on temperature
 - Control growing lights (LED matrix) based on the intentsity of the sunlight(TSL2561)
+- See all data and have control over everything with NodeRed dashboard
+- Can watch plants growing using webcam(ESP32 CAM)
